@@ -47,3 +47,8 @@ Hvis du har brug for at lave lange classnames til et objekt, er det en meget bed
 
 # 24.20:
 Flat selectors (et enkelt classname på et objekt) er meget bedre, da det er simpelt. Hvis man holder sig til det, behøver man ikke at bekymre sig om at være specifik. Et niveau for specifikation.
+
+Sidste kommentar: .classname{@extend .pull-left .col-md-6}. Her påtager .classname sig styles fra de andre klasser med @extend.
+
+# Hvad fik jeg ud af opgaven?
+Jeg fik en bedre forståelse for god navngivning. Min opfattelse af, hvad der er good practice er blevet bedre, men det er en måde at arbejde med CSS på, som jeg lige skal vende mig lidt til. Jeg tror jeg forstår det, men jeg skal lige ind i rutinen.
