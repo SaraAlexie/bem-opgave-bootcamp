@@ -1,0 +1,14 @@
+.header__menu-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.header__menu-item{
+    margin-right: 35px;
+}
+
+.header__link{
+    color: black;
+    text-decoration: none;
+}
