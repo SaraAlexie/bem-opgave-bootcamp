@@ -33,3 +33,17 @@ Scalable and Modular Architecture for CSS: et system til at organisere kode. 5 k
 - Module: De gentagne mønstre. Teoretisk kunne de sidde i layout.
 - State: Hvor du tager et module ændre ved dens funtion gennem JavaScript. Kunne være et mail icon, som får et rødt mærke, som indikerer en ulæst  besked. Ændret midlertidigt.
 - Theme eller Shame: Ikke påkrævet, men hvis forskellige temaer (kunne være farve) er nødvendige. Shame bruges til alle de gange, hvor de satte regler ikke er blevet brugt. Kan være en Shame-sektion nederst i stylesheetet med ting, som ikke passer reglerne eller ikke kunne passe grundet tid eller andet. 
+
+Basal navngivning:
+- .{Block}__{Element}
+- .{Block}__{Element}--{Modifier}
+- .{Block}--{Modifier}
+
+# 19.05:
+Jo mere specifikt reglerne er defineret, jo større er chancen for at de bliver taget i brug.
+
+# 20.50 & 22.06:
+Hvis du har brug for at lave lange classnames til et objekt, er det en meget bedre mulighed, end at gøre styles mere specifikke. Brug ALDRIG id'er til styles! Kun til JavaScript! Man kan ikke override et id.
+
+# 24.20:
+Flat selectors (et enkelt classname på et objekt) er meget bedre, da det er simpelt. Hvis man holder sig til det, behøver man ikke at bekymre sig om at være specifik. Et niveau for specifikation.
